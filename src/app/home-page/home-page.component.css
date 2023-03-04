@@ -1,0 +1,349 @@
+.wrapper{
+    height: 100%;
+}
+nav{
+    height:7vw;
+}
+nav ul li a{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    font-size: 1.3vw;
+}
+nav ul li a:hover{
+    background-color:#505050;
+    color: white;
+    transition: 0.2s;
+
+
+}
+#menuTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #505050;
+    font-size: 1.4vw;
+}
+.scroll {
+    background-color: turquoise;
+  }
+  .upperMainSection img{
+    width: 35%;
+    position: absolute;
+    right: 12vw;
+    top:0.5vw;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+#hamburger{
+    font-size: 2.5vw;
+    position: absolute;
+    top:2.1vw;
+    left:16vw;
+    color:white;
+    cursor: pointer;
+}
+#contactMe{
+    position: absolute;
+    top:2.1vw;
+    font-size: 1.3vw;
+    padding: 0.7vw 1.5vw;
+    border-radius: 0.9vw;
+    right:4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+#logo{
+    color: white;
+    position: absolute;
+    width: 15vw;
+    top: 2vw;
+    left: 4vw;
+    font-size: 2.2vw;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+}
+#offcanvasWithBothOptions{
+    width: 20vw;
+}
+.offcanvas-body{
+    padding: 0;
+}
+.upperMainSection{
+    position: absolute;
+    top:6vw;
+    height:40vw;
+    width: 100%;
+}
+.upperMainSection h4{
+    position: absolute;
+    top:1vw;
+    font-size: 1.4vw;
+    left:27.3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    color: #45ff83;
+    
+}
+.upperMainSection h1{
+    position: absolute;
+    top:3.5vw;
+    left:27vw;
+    font-size: 4.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    
+    
+}
+.upperMainSection p{
+    position: absolute;
+    top:15vw;
+    left:27.3vw;
+    width:20vw;
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: rgb(210, 210, 210);
+    
+    
+}
+.upperMainSection a{
+    position: absolute;
+    top:20vw;
+    left:27.3vw;
+    width:10vw;
+    border-radius: 0;
+    font-size: 1vw;
+    border:0.1vw solid #5bf18d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    color: white;
+    padding: 0.5vw 1.8vw;
+    
+    
+}
+.line{
+    width:0.2vw;
+    height:18vw;
+    left:25vw;
+    top:4.5vw;
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+.upperMainSection a:hover{
+    background-color: #5bf18d;
+}
+.Technologies{
+    height: 50vw;
+    position: absolute;
+    top:40vw;
+    width: 100%;
+}
+.Technologies h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top:9vw;
+    font-size: 3vw;
+    margin-bottom: 4vw;
+}
+#techGrid{
+    width: 85%;
+    margin: auto;
+}
+.col{
+    margin-bottom: 3vw;
+}
+.card{
+    border: none;
+}
+.aboutMe{
+    width: 100%;
+    height: 36vw;
+    background: linear-gradient(109.6deg, rgba(131, 72, 219, 0.68) 11.5%, rgb(96, 12, 223) 91.2%);
+    position: absolute;
+    top:93vw;
+}
+.aboutMe h1{
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.aboutMe img{
+    width: 23%;
+    position: absolute;
+    top:9vw;
+    left:7vw;
+}
+.aboutMe p{
+    position: absolute;
+    top:10.2vw;
+    left:35vw;
+    width:50vw;
+    font-size: 1.3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: rgb(210, 210, 210);
+}
+.contact{
+    width: 100%;
+    height:36vw;
+    position: absolute;
+    top:135vw;
+    background-color:#424242;
+
+}
+.contact h1{
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.cv{
+    width: 100%;
+    height:6vw;
+    position: absolute;
+    top:129vw;
+}
+.cv h1{
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+#contactGrid{
+    width: 85%;
+    margin: auto;
+    margin-top: 3.5vw;
+}
+
+#contactGrid .card{
+    background: transparent;
+}
+
+#contactGrid h4{
+    color: white;
+    margin: auto;
+    font-size: 1.1vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    margin-top: 0.6vw;
+
+}
+
+@media only screen and (max-width: 575px) {
+      
+    .upperMainSection img{
+        width: 55%;
+        position: absolute;
+        right: 6vw;
+        top:0.5vw;
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    }
+    .upperMainSection{
+        position: absolute;
+        top:13vw;
+        height:90vw;
+        width: 100%;
+    }
+    .upperMainSection h4{
+        position: absolute;
+        top:1vw;
+        font-size: 1.4vw;
+        left:33.3vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: light;
+        color: #45ff83;
+        
+    }
+    .upperMainSection h1{
+        position: absolute;
+        top:3.5vw;
+        left:13vw;
+        font-size: 8.5vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: white;
+        
+        
+    }
+    .upperMainSection p{
+        position: absolute;
+        top:25vw;
+        left:13.3vw;
+        width:40vw;
+        font-size: 2.5vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: rgb(210, 210, 210);
+        
+        
+    }
+    .upperMainSection button{
+        position: absolute;
+        top:39vw;
+        left:13.3vw;
+        width:25vw;
+        border-radius: 0;
+        font-size: 2.7vw;
+        border:0.2vw solid #5bf18d;
+        font-family: 'Roboto', sans-serif;
+        font-weight: light;
+        color: white;
+        padding: 1.3vw 2vw;
+        
+        
+    }
+    .line{
+        width:0.5vw;
+        height:40vw;
+        left:10.5vw;
+        top:5.5vw;
+        position: absolute;
+        background: linear-gradient(to bottom, rgb(182, 244, 146), rgb(51, 139, 147));
+    }
+    #hamburger{
+        font-size: 5.5vw;
+        position: absolute;
+        top:2.5vw;
+        left:32vw;
+        color:white;
+        cursor: pointer;
+    }
+    #logo{
+        color: white;
+        position: absolute;
+        width: 15vw;
+        top: 2vw;
+        left: 4vw;
+        font-size: 5.2vw;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    nav{
+        height:10vw;
+      
+    }
+    .Technologies{
+        height: 50vw;
+        position: absolute;
+        top:80vw;
+        width: 100%;
+    }
+
+  }
